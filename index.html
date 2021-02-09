@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Login Auth</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen">
+</head>
+
+<body>
+    <!--Page Wrapper Start-->
+    <div id="wrapper">
+        <!--Content Area Start-->
+        <!--Section banner-->
+        <section class="login-wrapper">
+            <div class="login-sec">
+                <h1>LOGIN</h1>
+                <form action="" class="login-form">
+                    <div class="form-field">
+                        <label for="username" class="field-title">Username:</label>
+                        <input type="email" required class="input-field" id="username">
+                    </div>
+                    <div class="form-field">
+                        <label for="password" class="field-title">Password:</label>
+                        <input type="password" minlength="8" maxlength="8" required class="input-field" id="password">
+                    </div>
+                    <div class="login"><button class="login-btn" onclick="validatePassword(event)">Login</button></div>
+                </form>
+            </div>
+        </section>
+        <!--content-->
+
+        <!--Content Area End-->
+    </div>
+    <!--Page Wrapper End-->
+    <script type="text/javascript" src="assets/js/script.js"></script>
+
+</body>
+
+</html>
